@@ -39,7 +39,7 @@ python3 samples_preparation.py --prior-hours 24
 ```
 3. Run train.py to train the model. The time-ref-parameter set the reference time point vector. If: time-ref-parameter=1, Δr=1./time-ref-parameter=2, Δr=0.5/time-ref-parameter=3, Δr=0.33/time-ref-parameter=4, Δr=0.25/
 ```
-python3 train.py --prior-hours 24 --ref-time-parameter 1 --batch-size 2000
+python3 train.py --prior-hours 24 --ref-time-parameter 1 --batch-size 2000 --epochs 100
 ```
 # Results 
 ![](assets/model_performance.png)
