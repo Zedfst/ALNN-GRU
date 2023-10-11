@@ -10,7 +10,7 @@ A verbal explanation of of $X,T,M$ and $\Delta$ with an example could be: the fi
 # Architecture
 ![](assets/architecture.jpg)
 
-# Requirement
+# Requirements
 ```
 tensorflow==2.9.2
 pandas==1.3.0
