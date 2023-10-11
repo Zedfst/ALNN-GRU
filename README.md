@@ -13,19 +13,12 @@ A verbal explanation of of $X,T,M$ and $\Delta$ with an example could be: the fi
 # Requirement
 ```
 tensorflow==2.9.2
-```
-```
 pandas==1.3.0
-```
-```
 tqdm
-```
-```
 seaborn
-```
-```
 scikit-learn
 ```
+
 # Steps to follow to launch the model
 1. As we are not allowed to share the data, the user must first complete an ethics course and get the MIMIC-3 database from https://physionet.org/content/mimiciii/1.4/ and place it in the data directory. The user must unzip the following files: CHARTEVENTS.csv.gz, OUTPUTEVENTS.csv.gz, ICUSTAYS.csv.gz and D_ITEMS.csv.gz.
 2. Run Features_selection.py to extract data for selected features in the study
